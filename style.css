@@ -3,3 +3,66 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  color: red;
+}
+body {
+  background-color: #00b3e6;
+}
+
+/* Centered header */
+#main-header {
+  font-size: 22px;
+  color: red;
+  text-align: center;
+}
+
+/* Centered image using margin */
+.featured-image {
+  width: 900px; /* Adjust width as needed */
+  margin: 0 auto;
+}
+
+/* OR Centered image using parent element (replace .image-container with your class) */
+/*.image-container {
+  text-align: center;
+}
+
+.featured-image {
+  width: 900px; /* Adjust width as needed */
+}*/
+
+/* Styled navigation links */
+.navbar a {
+  padding: 10px;
+  background-color: gray;
+  text-align: center;
+}
+
+/* Styled image caption */
+.caption {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Centered and formatted text block */
+#featured-property p {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+/* Horizontal details section */
+#details div {
+  float: left;
+  width: 25%;
+  /* Add background color, text alignment, etc. styles here */
+}
+
+/* Styled bottom section divs */
+.bottom-section div {
+  background-color: #eee;
+  text-align: center;
+  width: 25%;
+  /* Add additional styles as needed */
+}
